@@ -1,0 +1,132 @@
+/*@font-face {
+	font-family: MyFont;
+	src: url("../fonts/ostrich-sans-inline-regular.woff") format('woff'),
+		url("../fonts/ostrich-sans-inline-regular.ttf") format('truetype'),
+		url("../fonts/ostrich-sans-inline-regular.svg") format('svg');
+} */
+
+@font-face {
+	font-family: MyFont;
+	src: url("../fonts/PT_Sans-Web-Regular.ttf") format('truetype');
+}
+
+html {
+	background-image: url("../img/background.jpeg");
+	background-repeat: no repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	margin: auto;
+}
+body {
+	width: 50%;
+	margin: auto;
+	font-family: 'MyFont';
+}
+
+.companyBG {
+	background-image: url("../img/companylogoBG.jpg");
+	width: 100%;
+	background-size: cover;
+	margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+h1 {
+	color: #FFFFFF; /* this will be color white */
+	text-align: center;
+
+}
+.product {
+	width: 100%; 
+	margin-block-start: 0%;
+    margin-block-end: 0%;
+	display: block;
+}
+.header {
+	background-color: #2699FB;
+	text-align: center;
+	font-size: 500%;
+	text-transform: uppercase; /* All caps*/
+	color: #FFFFFF; /* Change to color white */
+	margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+.footer {
+	position: bottom; /* footer will be a the bottom of the page */
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #000000; /* Change to color black */
+	color: #FFFFFF; /* Change to color white */
+	text-align: center; /* text will be at the center */
+	margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+.contactInfoBG {
+	background-color: #FFFFFF;
+}
+
+.menu {
+	display: flex;
+	background-color: #707070;
+	justify-content: center;
+	margin: 0%;
+}
+
+.menuItem {
+	display: block;
+	margin: 0% 1%;
+	text-transform: uppercase;
+	font-size: 150%;
+}
+
+.menuItem a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* THIS IS MEDIA QUEARIES */
+
+@media screen and (max-width: 960px) {
+	html {
+	background-image: none;
+	}
+	
+	body {
+	width: 100%;
+	}
+	
+	.tabletHide {
+	display: none;
+	}	
+} 
+
+@media screen and (max-width: 376px) { /* for mobile */
+	html {
+	background-image: none;
+	}
+	
+	body {
+	width: 100%;
+	}
+	
+	.headerHide {
+	display: none;
+	}
+
+	.productHide {
+	display: none;
+	}
+	
+}
+
+
+
+
+
+
+	
+
+
+
+	

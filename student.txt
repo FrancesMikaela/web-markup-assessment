@@ -1,0 +1,3 @@
+student name : Frances Mikaela Agasino
+student number : 630236
+student class : IT1a
